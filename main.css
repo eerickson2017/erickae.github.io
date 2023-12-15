@@ -139,4 +139,59 @@ hr {
 }
 .item img {
   width: 200px;
-}/*# sourceMappingURL=main.css.map */
+}
+.contact-form{
+  margin: 30px auto;
+  background: #f1e1f5;
+  padding: 25px;
+  border-radius: 10px;
+  width: 250px;
+  font-size: 13px;
+}
+h1{
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  color: #333;
+}
+.form-group{
+  margin-bottom: 20px;
+}
+label{
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+input, textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-size: 17px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+button{
+  display: block;
+  margin: auto;
+  background: #ffefce;
+  color: #a27aac;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  font-size: 12px;
+}
+[placeholder]{
+  font-size: 10px;
+}
+button:hover {
+  background: #fcf289;
+}
+
+
+/*# sourceMappingURL=main.css.map */
