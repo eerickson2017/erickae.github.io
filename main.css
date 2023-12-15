@@ -82,7 +82,7 @@ hr {
   padding-bottom: 50px;
   padding-top: 50px;
   text-align: center;
-  color: #8d3ae5;
+  color: #a27aac;
 }
 
 .aboutMe {
@@ -138,32 +138,46 @@ hr {
   margin: 30px;
 }
 .item img {
-  width: 200px;
+  padding: 30px 30px 0;
 }
-.contact-form{
-  margin: 30px auto;
-  background: #f1e1f5;
+
+.item figcaption {
+  text-align: center;
+  color: #a27aac;
+}
+.item figcaption p {
+  font-size: 11px;
+  font-weight: light;
+}
+
+.contact-form {
+  background: #f3dafc;
   padding: 25px;
   border-radius: 10px;
-  width: 250px;
-  font-size: 13px;
+  width: 300px;
+  margin: 30px auto;
 }
-h1{
+
+h1 {
   text-align: center;
   margin-top: 0px;
   margin-bottom: 40px;
-  color: #333;
+  color: #5d5d57;
 }
-.form-group{
+
+.form-group {
   margin-bottom: 20px;
 }
-label{
+
+label {
   display: block;
   font-weight: bold;
   margin-bottom: 5px;
   color: #555;
+  font-size: 14px;
 }
-input, textarea{
+
+input, textarea {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
@@ -173,10 +187,11 @@ input, textarea{
   box-sizing: border-box;
   resize: vertical;
 }
-button{
+
+button {
   display: block;
   margin: auto;
-  background: #ffefce;
+  background: #feeeb5;
   color: #a27aac;
   border: none;
   padding: 10px 20px;
@@ -184,14 +199,12 @@ button{
   font-size: 16px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
   cursor: pointer;
-  font-size: 12px;
 }
-[placeholder]{
-  font-size: 10px;
-}
+
 button:hover {
-  background: #fcf289;
+  background: #fbf084;
 }
 
-
-/*# sourceMappingURL=main.css.map */
+.form-group [placeholder] {
+  font-size: 11px;
+}/*# sourceMappingURL=main.css.map */
