@@ -1,4 +1,4 @@
-$primarycolor:#a27aac;
+$primarycolor:#333;
 $primaryWhite:#fafafa;
 $darkpurple: #8d3ae5;
 $lightyellow:#feeeb5;
@@ -52,6 +52,7 @@ body{
         margin: -10px;
     }
 }
+
 
 .header{
     padding-top:300px;
@@ -139,6 +140,8 @@ hr{
     transition: 0.3s;
     margin: 30px;
     text-decoration: none;
+    border-radius: 5%;
+
     img{
         padding: 30px 30px 0;
     }
