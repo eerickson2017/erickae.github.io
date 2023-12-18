@@ -1,4 +1,4 @@
-$primarycolor:#a27aac;
+$primarycolor:#333;
 $primaryWhite:#fafafa;
 $darkpurple: #8d3ae5;
 $lightyellow:#feeeb5;
@@ -49,7 +49,10 @@ body{
     height:100vh;
     position:fixed;
     img{
-        margin: -10px;
+        margin: 0 -10px;
+    }
+    li{
+        padding: 20px 0;
     }
 }
 
@@ -74,9 +77,8 @@ hr{
     margin: 30px;
     border-radius: 50%;
     padding: 15px;
-    :hover {
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    }
+    border-radius: 10%;
+   
 }
 .container{
     padding:40px 100px ;
@@ -137,6 +139,8 @@ hr{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     margin: 30px;
+    border-radius: 5%;
+
     img{
         padding: 30px 30px 0;
     }
