@@ -31,6 +31,22 @@ p{
 .section-p1{
     padding: 40px 80px;
 }
+.section-m1{
+    margin: 40px 0;
+}
+button.normal {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition:0.2s ;
+
+}
 body{
     width: 100%;
 }
@@ -234,4 +250,38 @@ background-color: #cdd4f8;
     bottom:20px ;
     right: 10px;
 
+}
+
+/*BANNER*/
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url('imgs/banner/b2.jpg');
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+#banner h4{
+    color: #fff;
+    font-size: 16px;
+}
+#banner h2{
+    color: #fff;
+    padding: 10px 0;
+    font-size: 30px;
+}
+#banner h2 span{
+    color: #ef3636;
+}
+#banner button{
+
+}
+#banner button:hover{
+    background-color:#088178 ;      
+    color:#fff;
 }
