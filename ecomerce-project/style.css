@@ -147,6 +147,59 @@ body{
     font-size: 15px;
     font-weight: 700;
 }
+#page-header{
+    background-image: url(imgs/banner/b1.jpg);
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+#page-header h2,
+#page-header p{
+    color: #fff;
+}
+#paganation{
+    text-align: center;
+}
+#paganation a{
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+#paganation a i{
+    font-size: 16px;
+    font-weight: 600;
+}
+/* single product page  */
+
+#prodetails {
+    display: flex;
+    margin-top: 20px;
+}
+
+#prodetails .single-pro-img{
+    width: 40%;
+    margin-right: 50px;
+}
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+#prodetails .single-pro-details{
+    width: 50%;
+    padding-top: 30px;
+}
 
 /*features*/
 
