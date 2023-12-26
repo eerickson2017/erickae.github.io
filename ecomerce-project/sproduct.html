@@ -32,7 +32,7 @@
     </section>
     <section id="prodetails" class="'section-p1">
         <div class="single-pro-img">
-            <img src="imgs/products/f1.jpg" width="100%" id="main-img" alt="">
+            <img src="imgs/products/f1.jpg" width="100%" id="mainImg" alt="">
             <div class="small-img-group">
                 <div class='small-img--col'>
                     <div small-img-col>
@@ -68,9 +68,83 @@
                 <option>Small</option>
             </select>
             <input type="number" value="1">
-            <button> Add To Cart</button>
+            <button class="normal">  Add To Cart</button>
             <h4>Product Details</h4>
             <p>【Premium Fabric】: Men's polo golf shirts are made of 95% Polyester 5% Spandex, with bright floral printing process, which looks beautiful and makes you the focus of the audience. The men's hawaiian printed polo shirt is breathable and moisture-wicking to keep you cool and comfortable all day long.</p>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>Summer Collection New Morden Design</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="imgs/products/n5.jpg" alt="">
+                <div class="desc">
+                    <span>Adidas</span>
+                    <h5>Cartoon Astronaut T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$74</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="imgs/products/n6.jpg" alt="">
+                <div class="desc">
+                    <span>Adidas</span>
+                    <h5>Cartoon Astronaut T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$74</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="imgs/products/n7.jpg" alt="">
+                <div class="desc">
+                    <span>Adidas</span>
+                    <h5>Cartoon Astronaut T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$74</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="imgs/products/n8.jpg" alt="">
+                <div class="desc">
+                    <span>Adidas</span>
+                    <h5>Cartoon Astronaut T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$74</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+
+
+
         </div>
     </section>
 
@@ -140,8 +214,26 @@
         <p>@ 2021 , tech2 etc - Html CSS Ecommerce Template</p>
 
     </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
 
-
+            var mainImg = document.getElementById ('mainImg');
+            var smallImg = document.querySelectorAll('.small-img');
+             
+            smallImg[0].onclick = function(){
+                mainImg.src = smallImg[0].src;
+            }
+            smallImg[1].onclick = function(){
+                mainImg.src = smallImg[1].src;
+            }
+            smallImg[2].onclick = function(){
+                mainImg.src = smallImg[2].src;
+            }
+            smallImg[3].onclick = function(){
+                mainImg.src = smallImg[3].src;
+            }
+        });
+    </script>
     <script src="script.js"></script>
 </body>
 
