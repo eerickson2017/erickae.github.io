@@ -644,9 +644,51 @@ footer a:hover{
     color: #c9cbce;
     z-index:-9;
 }
+/* ABOUT PAGE */
+
+ .about-header{
+    background-image: url(imgs/about/banner.png);
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.about-header h2,.about-header p {
+color: #fff;
+}
+
+#about-head img{
+    width: 50%;
+    height: auto;
+    
+}
+#about-head{
+    display: flex;
+    align-items: center;
+}
+#about-head div{
+    padding-left: 40px;
+}
+
+/* About page */
 
 
 
+#about-app h1{
+    text-align: center;
+
+}
+#about-app img{
+    width: 100%;
+    height: auto;
+    margin: 30px auto;
+}
+#about-app .video{
+
+}
 /* Media queries */
 @media (max-width:799px) {
     .section-p1{
@@ -810,6 +852,21 @@ footer a:hover{
     }
     #blog .blog-details {
         width: 100%;
+    }
+
+    /* ABOUT PAGE */
+
+    #about-head {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    #about-head img {
+        width: 100%;
+        height: auto;
+    }
+    #about-head div {
+        padding-left: 0px;
     }
 }
 
