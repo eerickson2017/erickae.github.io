@@ -41,14 +41,13 @@ button.normal {
     font-size: 14px;
     font-weight: 600;
     padding: 15px 30px;
-    color: #000;
-    background-color: #fff;
+    color: #fff;
+    background-color: #088178;
     border-radius: 4px;
     cursor: pointer;
     border: none;
     outline: none;
     transition:0.2s ;
-
 }
 button.white {
     font-size: 13px;
@@ -686,9 +685,100 @@ color: #fff;
     height: auto;
     margin: 30px auto;
 }
-#about-app .video{
+
+/* Conatct Page */
+
+#contact-details{
+    display:flex;
+    align-items: center;
+    align-content:space-between ;
+    vertical-align: top;
 
 }
+#contact-details .details{
+    width: 100%;
+    padding-right: 50px;
+}
+#contact-details .details p{
+    font-weight: 200;
+    color: #222;
+    margin-bottom: 20px !important;
+}
+#contact-details .details h2{
+ padding: 30px 0;
+}
+#contact-details .details h3{
+    padding: 20px 0;
+}
+#contact-details .details .icons li{
+    list-style: none;
+}
+.icons li p i{
+    padding-right: 10px ;
+}
+#contact-details .details .icons li p{
+    font-weight: 300;
+    width:
+}
+#contact-details .map{
+    width: 100%;
+}
+#contact-details .map iframe{
+    width: 100%;
+}
+#phone-details{
+    display: flex;
+    justify-content: center;
+    margin:30px;
+    padding:50px;
+    border: 1px solid #e1e1e1;
+
+}
+#phone-details form{
+    display:flex;
+    flex-direction: column;
+    width: 55%;
+}
+#phone-details form input{
+    margin: 20px 0 0;
+    width: 100%;
+    height: 30px;
+    outline-color:#222;
+}
+#phone-details form textarea{
+    width: 70%;
+    width: 100%;
+    margin-top: 20px;
+}
+#people{
+    width: 50%;
+    padding-left:30px;
+}
+#people .details img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#people .details{
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    justify-content: center;    
+}
+#people .details div{
+    padding-left: 20px;
+    
+}
+#people .details div h3{
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+#people .details div h5{
+    font-weight: 300;
+}
+
+
+
 /* Media queries */
 @media (max-width:799px) {
     .section-p1{
@@ -867,6 +957,54 @@ color: #fff;
     }
     #about-head div {
         padding-left: 0px;
+    }
+    /* contact page */
+    #contact-details .details {
+        width: 100%;
+        padding-right: 0px;
+    }
+    #contact-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-between;
+        vertical-align: top;
+    }
+    #contact-details .details h2 {
+        padding: 10px 0;
+        text-align: left;
+    }
+    .about-header {
+        background-image: url(imgs/about/banner.png);
+        height: 30vh;
+        width: 100%;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    #phone-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px;
+        padding: 15px;
+        border: 1px solid #e1e1e1;
+    }
+    #phone-details form {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    #people {
+        width: 80%;
+        padding-left: 0px;
+    }
+    button.normal {
+        padding: 10px 5px;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
 
