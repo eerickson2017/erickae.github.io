@@ -15,3 +15,8 @@ if (close){
 
 
 
+// addcart
+
+var addcart = document.getElementsByClassName('addcart')
+
+console.log(addcart);
