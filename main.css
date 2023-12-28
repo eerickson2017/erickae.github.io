@@ -210,4 +210,10 @@ button:hover {
 
 .form-group [placeholder] {
   font-size: 11px;
+}
+
+#project .item:nth-child(1) img {
+  max-width: 370px;
+  height: 70%;
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
