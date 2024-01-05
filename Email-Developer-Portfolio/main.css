@@ -146,6 +146,7 @@ hr {
 .item figcaption {
   text-align: center;
   color: #333;
+  text-decoration: none;
 }
 .item figcaption p {
   font-size: 11px;
