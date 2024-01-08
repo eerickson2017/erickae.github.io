@@ -22,7 +22,6 @@ body {
   padding: 15px 0;
   text-align: center;
   font-size: 0.8rem;
-  margin: 10px 0;
 }
 .homepage li:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
@@ -38,7 +37,10 @@ body {
   position: fixed;
 }
 .sidebar img {
-  margin: -10px;
+  margin: 0 -10px;
+}
+.sidebar li {
+  padding: 20px 0;
 }
 
 .header {
@@ -63,8 +65,9 @@ hr {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   margin: 30px;
-  border-radius: 5%;
+  border-radius: 50%;
   padding: 15px;
+  border-radius: 10%;
 }
 
 .container {
@@ -134,19 +137,16 @@ hr {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   margin: 30px;
-  text-decoration: none;
   border-radius: 5%;
 }
 .item img {
   padding: 30px 30px 0;
 }
-.item a {
-  text-decoration: none;
-}
 
 .item figcaption {
   text-align: center;
   color: #333;
+  text-decoration: none;
 }
 .item figcaption p {
   font-size: 11px;
@@ -210,10 +210,4 @@ button:hover {
 
 .form-group [placeholder] {
   font-size: 11px;
-}
-
-#project .item:nth-child(1) img {
-  max-width: 370px;
-  height: 70%;
-  width: 100%;
 }/*# sourceMappingURL=main.css.map */
