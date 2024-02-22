@@ -10,6 +10,19 @@ $lightpurple:#f3dafc;
     justify-content: space-evenly;
     align-content: center;
 }
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+}
+.show {
+    opacity: 1;
+}
+@media(prefers-reduced-motion){
+    .hidden{
+        
+        transition: none;
+    }
+}
 
 *{
     box-sizing: border-box;
