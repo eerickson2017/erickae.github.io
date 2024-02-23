@@ -4,6 +4,7 @@ $darkpurple: #8d3ae5;
 $lightyellow:#feeeb5;
 $lightpurple:#f3dafc;
 
+
 @mixin flexContainer(){
     display: flex;
     flex-wrap: wrap;
@@ -12,7 +13,7 @@ $lightpurple:#f3dafc;
 }
 .hidden {
     opacity: 0;
-    transition: all 1s;
+    transition: all 1.5s;
 }
 .show {
     opacity: 1;
@@ -28,6 +29,7 @@ $lightpurple:#f3dafc;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -70,11 +72,25 @@ body{
 }
 
 .header{
-    padding-top:300px;
+    padding-top:25%;
     margin: auto;
     color: $primaryWhite;
     text-align: center;
     height: 100vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   h1{
+    color: white; 
+    font-size: 3em; 
+    margin: 0; 
+    -webkit-text-stroke: 1.5px #222;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   }h4{
+    font-size: 1.5em; 
+    margin: 0; 
+    -webkit-text-stroke: 1px #222;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+   }
 }
 hr{
     width: 80%;
@@ -171,7 +187,7 @@ hr{
     }
     
 }
-. 
+
 
 
 

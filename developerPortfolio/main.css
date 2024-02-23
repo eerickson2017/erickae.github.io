@@ -1,7 +1,22 @@
+.hidden {
+  opacity: 0;
+  transition: all 1.5s;
+}
+
+.show {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+}
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 body {
@@ -44,11 +59,25 @@ body {
 }
 
 .header {
-  padding-top: 300px;
+  padding-top: 25%;
   margin: auto;
   color: #fafafa;
   text-align: center;
   height: 100vh;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.header h1 {
+  color: white;
+  font-size: 3em;
+  margin: 0;
+  -webkit-text-stroke: 1.5px #222;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.header h4 {
+  font-size: 1.5em;
+  margin: 0;
+  -webkit-text-stroke: 1px #222;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 hr {
@@ -132,6 +161,9 @@ hr {
   justify-content: space-evenly;
   align-content: center;
 }
+.projects a {
+  text-decoration: none;
+}
 
 .item {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -146,11 +178,11 @@ hr {
 .item figcaption {
   text-align: center;
   color: #333;
-  text-decoration: none;
 }
 .item figcaption p {
   font-size: 11px;
   font-weight: light;
+  text-decoration: none;
 }
 
 .contact-form {
