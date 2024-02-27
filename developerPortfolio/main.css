@@ -48,7 +48,7 @@ body {
 
 .sidebar {
   background-color: #f5ebe0;
-  height: 100vh;
+  height: 120vh;
   position: fixed;
 }
 .sidebar img {
@@ -243,4 +243,39 @@ button:hover {
 
 .form-group [placeholder] {
   font-size: 11px;
+}
+
+@media (max-width: 730px) {
+  .header {
+    padding-top: 25%;
+    margin: auto;
+    color: #606c38;
+    text-align: right;
+    margin-right: 25%;
+    height: 130vh;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  .header h1 {
+    color: #606c38;
+    font-size: 2.5rem;
+    margin-left: 30%;
+    position: relative;
+    text-align: center;
+    top: -80px;
+    margin-top: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .header h4 {
+    font-size: 1em;
+    position: relative;
+    top: -70px;
+    margin-left: 100px;
+    text-align: center;
+  }
+  .homepage {
+    background-image: url(imgs/hero.png);
+    background-size: 450px;
+    height: 140vh;
+    background-position: right;
+  }
 }/*# sourceMappingURL=main.css.map */
