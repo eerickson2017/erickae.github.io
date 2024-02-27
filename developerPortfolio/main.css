@@ -278,4 +278,7 @@ button:hover {
     height: 140vh;
     background-position: right;
   }
+  .sidebar {
+    opacity: 0.6;
+  }
 }/*# sourceMappingURL=main.css.map */
