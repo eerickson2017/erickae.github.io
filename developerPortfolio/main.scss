@@ -3,6 +3,14 @@ $primaryWhite:#fafafa;
 $darkpurple: #8d3ae5;
 $lightyellow:#feeeb5;
 $lightpurple:#f3dafc;
+$lightgreen :#606c38;
+$darkgreen:#283618;
+$white: #fefae0;
+$tan:#f5ebe0;
+$brown:#bc6c25;
+$black:#000814;
+
+
 
 
 @mixin flexContainer(){
@@ -36,13 +44,13 @@ body{
 }
 .homepage{
    
-    background-image:url(imgs/background2.jpg);
+    background-image:url(imgs/hero.png);
+    background-size: 500px;
     background-repeat: no-repeat;
-    background-size: 100vw s;
-    background-position: center;
+    background-position: right;
     a{
         text-decoration: none;
-        color:$primarycolor;
+        color:$darkgreen;
     }
     li{
         padding:15px 0;
@@ -60,27 +68,31 @@ body{
 }
 
 .sidebar{
-    background-color:$primaryWhite;
+    background-color:$tan;
     height:100vh;
     position:fixed;
     img{
         margin: 0 -10px;
     }
     li{
+        color: $black;
         padding: 20px 0;
+        font-weight: 500;
     }
 }
 
 .header{
     padding-top:25%;
     margin: auto;
-    color: $primaryWhite;
+    color: $lightgreen;
     text-align: center;
+    margin-right: 25%;
     height: 100vh;
+    opacity: 1;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    h1{
-    color: white; 
-    font-size: 3em; 
+    color: $lightgreen; 
+    font-size: 5rem; 
     margin: 0; 
      font-family:Georgia, 'Times New Roman', Times, serif;
    }h4{
@@ -189,7 +201,7 @@ hr{
 
 
 .contact-form{
-    background:$lightpurple;
+    background:$tan;
     padding: 25px;
     border-radius: 10px;
     width: 300px;
@@ -199,7 +211,7 @@ hr{
     text-align: center;
     margin-top: 0px;
     margin-bottom: 40px;
-    color: #5d5d57;
+    color: $lightgreen;
   }
   .form-group{
     margin-bottom: 20px;
@@ -224,8 +236,8 @@ hr{
   button{
     display: block;
     margin: auto;
-    background: $lightyellow;
-    color: $primarycolor;
+    background: $lightgreen;
+    color: $white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
