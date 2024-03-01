@@ -1,244 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ecommerce project</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/90fa5a8a10.js" crossorigin="anonymous"></script>
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/90fa5a8a10.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <section id="header">
-        <a href="#"><img src="imgs/logo.png" alt="">
-        </a>
+      <a href="#"><img src="imgs/logo.png" alt="" /> </a>
 
-        <div>
-            <ul id="navbar">
-                <li><a href="index.html">Home</a></li>
-                <li><a class="active" href="shop.html">Shop</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li class="active" id="lg-bag"><a href="cart.html"><i style="color:#088178" class="fa-solid fa-cart-shopping "></i></a>
-                </li>
-                <span>0</span>                <a href="#" id="close"><i class="fa-solid fa-x"></i></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="active" id="lg-bag">
+            <a href="cart.html"
+              ><i style="color: #088178" class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </li>
+          <span>0</span>
+          <a href="#" id="close"><i class="fa-solid fa-x"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        <span>0</span>
 
-            </ul>
-        </div>
-        <div id="mobile">
-            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
-            <span>0</span> 
-
-            <i id="bar" class="fas fa-outdent"></i>
-
-        </div>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
     </section>
     <section id="prodetails" class="'section-p1">
-        <div class="single-pro-img">
-            <img src="imgs/products/f1.jpg" width="100%" id="mainImg" alt="">
-            <div class="small-img-group">
-                <div class='small-img--col'>
-                    <div small-img-col>
-                        <img src="imgs/products/f1.jpg" width="100%" alt="" class="small-img">
-                    </div>
-                </div>
-                <div class='small-img--col'>
-                    <div small-img-col>
-                        <img src="imgs/products/f2.jpg" width="100%" alt="" class="small-img">
-                    </div>
-                </div>
-                <div class='small-img--col'>
-                    <div small-img-col>
-                        <img src="imgs/products/f3.jpg" width="100%" alt="" class="small-img">
-                    </div>
-                </div>
-                <div class='small-img--col'>
-                    <div small-img-col>
-                        <img src="imgs/products/f4.jpg" width="100%" alt="" class="small-img">
-                    </div>
-                </div>
+      <div class="single-pro-img">
+        <img src="imgs/products/f1.jpg" width="100%" id="mainImg" alt="" />
+        <div class="small-img-group">
+          <div class="small-img--col">
+            <div small-img-col>
+              <img
+                src="imgs/products/f1.jpg"
+                width="100%"
+                alt=""
+                class="small-img"
+              />
             </div>
-        </div>        
-        <div class="single-row-details">    
-            <h6>Home / T-Shirt</h6>
-            <h4>Mens's Fasion T-Shirts</h4>
-            <h2>$139.00</h2>
-            <select>
-                <option>Select Size</option>
-                <option>XL</option>
-                <option>XXL</option>
-                <option>Large</option>
-                <option>Small</option>
-            </select>
-            <input type="number" value="1">
-            <button class="normal">  Add To Cart</button>
-            <h4>Product Details</h4>
-            <p>【Premium Fabric】: Men's polo golf shirts are made of 95% Polyester 5% Spandex, with bright floral printing process, which looks beautiful and makes you the focus of the audience. The men's hawaiian printed polo shirt is breathable and moisture-wicking to keep you cool and comfortable all day long.</p>
+          </div>
+          <div class="small-img--col">
+            <div small-img-col>
+              <img
+                src="imgs/products/f2.jpg"
+                width="100%"
+                alt=""
+                class="small-img"
+              />
+            </div>
+          </div>
+          <div class="small-img--col">
+            <div small-img-col>
+              <img
+                src="imgs/products/f3.jpg"
+                width="100%"
+                alt=""
+                class="small-img"
+              />
+            </div>
+          </div>
+          <div class="small-img--col">
+            <div small-img-col>
+              <img
+                src="imgs/products/f4.jpg"
+                width="100%"
+                alt=""
+                class="small-img"
+              />
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="single-row-details">
+        <h6>Home / T-Shirt</h6>
+        <h4>Mens's Fasion T-Shirts</h4>
+        <h2>$139.00</h2>
+        <select>
+          <option>Select Size</option>
+          <option>XL</option>
+          <option>XXL</option>
+          <option>Large</option>
+          <option>Small</option>
+        </select>
+        <input type="number" value="1" />
+        <button class="normal">Add To Cart</button>
+        <h4>Product Details</h4>
+        <p>
+          【Premium Fabric】: Men's polo golf shirts are made of 95% Polyester
+          5% Spandex, with bright floral printing process, which looks beautiful
+          and makes you the focus of the audience. The men's hawaiian printed
+          polo shirt is breathable and moisture-wicking to keep you cool and
+          comfortable all day long.
+        </p>
+      </div>
     </section>
 
     <section id="product1" class="section-p1">
-        <h2>Featured Products</h2>
-        <p>Summer Collection New Morden Design</p>
-        <div class="pro-container">
-            <div class="pro">
-                <img src="imgs/products/n5.jpg" alt="">
-                <div class="desc">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut T-shirt</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$74</h4>
-                </div>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+      <h2>Featured Products</h2>
+      <p>Summer Collection New Morden Design</p>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="imgs/products/n5.jpg" alt="" />
+          <div class="desc">
+            <span>Adidas</span>
+            <h5>Cartoon Astronaut T-shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
             </div>
-            <div class="pro">
-                <img src="imgs/products/n6.jpg" alt="">
-                <div class="desc">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut T-shirt</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$74</h4>
-                </div>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-            </div>
-            <div class="pro">
-                <img src="imgs/products/n7.jpg" alt="">
-                <div class="desc">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut T-shirt</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$74</h4>
-                </div>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-            </div>
-            <div class="pro">
-                <img src="imgs/products/n8.jpg" alt="">
-                <div class="desc">
-                    <span>Adidas</span>
-                    <h5>Cartoon Astronaut T-shirt</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$74</h4>
-                </div>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-            </div>
-
-
-
+            <h4>$74</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div>
+        <div class="pro">
+          <img src="imgs/products/n6.jpg" alt="" />
+          <div class="desc">
+            <span>Adidas</span>
+            <h5>Cartoon Astronaut T-shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$74</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="imgs/products/n7.jpg" alt="" />
+          <div class="desc">
+            <span>Adidas</span>
+            <h5>Cartoon Astronaut T-shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$74</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="imgs/products/n8.jpg" alt="" />
+          <div class="desc">
+            <span>Adidas</span>
+            <h5>Cartoon Astronaut T-shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$74</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+      </div>
     </section>
 
     <section id="newsletter" class="section-p1 section-m1">
-        <div class="newstext">
-            <h4>Sign up For Newsletters</h4>
-            <p>get E-mail updates about our latest shop and <span>special offers</span></p>
-        </div>
-        <div class="form">
-            <input type="text" placeholder="Your email adress">
-            <button class="normal">Sign up</button>
-        </div>
+      <div class="newstext">
+        <h4>Sign up For Newsletters</h4>
+        <p>
+          get E-mail updates about our latest shop and
+          <span>special offers</span>
+        </p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your email adress" />
+        <button class="normal">Sign up</button>
+      </div>
     </section>
 
     <footer class="section-p1">
-        <div class="col">
-            <img class="logo" src="imgs/logo.png" alt="">
-            <h4>Contact</h4>
-            <p><strong>Adress:</strong> 562 Wellington Road , San Francisco </p>
-            <p><strong>Phone:</strong> +01 2222 365/ (+91) 01 2345 6789</p>
-            <p><strong>Hours:</strong>10:00am-18:00 Mon-Sat</p>
-            <div class="follow">
-                <h4>Follow Us</h4>
-                <div class="icon">
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-pinterest"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-youtube"></i>
-                    
-                </div>
-
-            </div>
-
+      <div class="col">
+        <img class="logo" src="imgs/logo.png" alt="" />
+        <h4>Contact</h4>
+        <p><strong>Adress:</strong> 562 Wellington Road , San Francisco</p>
+        <p><strong>Phone:</strong> +01 2222 365/ (+91) 01 2345 6789</p>
+        <p><strong>Hours:</strong>10:00am-18:00 Mon-Sat</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
         </div>
-        <div class="col">
-            <h4>About</h4>
-            <a href="#">About us </a>
-            <a href="#">Delivery Information</a>
-            <a href="#">Privacy Policy </a>
-            <a href="#">Terms & Conditions </a>
-            <a href="#">Contact Us </a>
+      </div>
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About us </a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy </a>
+        <a href="#">Terms & Conditions </a>
+        <a href="#">Contact Us </a>
+      </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign in </a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist </a>
+        <a href="#">Track My Orders </a>
+        <a href="#">Help </a>
+      </div>
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App store or Google Play</p>
+        <div class="row">
+          <img src="imgs/pay/app.jpg" alt="" />
+          <img src="imgs/pay/play.jpg" alt="" />
+          <p>Secured Payment Gateways</p>
+          <img src="imgs/pay/pay.png" alt="" />
         </div>
-        <div class="col">
-            <h4>My Account</h4>
-            <a href="#">Sign in  </a>
-            <a href="#">View Cart</a>
-            <a href="#">My Wishlist </a>
-            <a href="#">Track My Orders </a>
-            <a href="#">Help </a>
-        </div>
-        <div class="col install">
-            <h4>Install App</h4>
-            <p>From App store or Google Play</p>  
-            <div class="row">
-                <img src="imgs/pay/app.jpg" alt="">
-                <img src="imgs/pay/play.jpg" alt="">
-                <p>Secured Payment Gateways</p>  
-                <img src="imgs/pay/pay.png" alt="">
-            </div>          
-            
-        </div>
-
-
+      </div>
     </footer>
     <div class="copyright">
-        <p>@ 2021 , tech2 etc - Html CSS Ecommerce Template</p>
-
+      <p>@ 2021 , tech2 etc - Html CSS Ecommerce Template</p>
     </div>
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+      document.addEventListener("DOMContentLoaded", function () {
+        var mainImg = document.getElementById("mainImg");
+        var smallImg = document.querySelectorAll(".small-img");
 
-            var mainImg = document.getElementById ('mainImg');
-            var smallImg = document.querySelectorAll('.small-img');
-             
-            smallImg[0].onclick = function(){
-                mainImg.src = smallImg[0].src;
-            }
-            smallImg[1].onclick = function(){
-                mainImg.src = smallImg[1].src;
-            }
-            smallImg[2].onclick = function(){
-                mainImg.src = smallImg[2].src;
-            }
-            smallImg[3].onclick = function(){
-                mainImg.src = smallImg[3].src;
-            }
-        });
+        smallImg[0].onclick = function () {
+          mainImg.src = smallImg[0].src;
+        };
+        smallImg[1].onclick = function () {
+          mainImg.src = smallImg[1].src;
+        };
+        smallImg[2].onclick = function () {
+          mainImg.src = smallImg[2].src;
+        };
+        smallImg[3].onclick = function () {
+          mainImg.src = smallImg[3].src;
+        };
+      });
     </script>
     <script src="js/script.js"></script>
-</body>
-
+  </body>
 </html>
